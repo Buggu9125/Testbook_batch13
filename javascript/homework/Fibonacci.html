@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Sequence</title>
+</head>
+<body>
+    <h1>The Number is:-</h1>
+    <p id="num"></p>
+    <h1>Fibonacci Sequence is:- </h1>
+    <p id="n1"></p>
+    <p id="n2"></p>
+    <p id="seq"></p>
+    <script>
+        var num=0;
+        num=prompt("enter the Number");
+        document.getElementById("num").innerHTML =num; 
+        let n1=0;
+        let n2=0; 
+        let next;
+        function fibonacci(n) {
+          return n < 1 ? 0
+            : n <= 2 ? 1
+            : fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+console.log(fibonacci(5))
+</script>
+</body>
+</html>

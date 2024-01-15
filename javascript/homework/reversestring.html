@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String</title>
+</head>
+<body>
+    <h1 id="num"></h1>
+    <script>
+    function reverseString(str) {
+        if (str === "") {
+            return "";
+        } else {
+            return reverseString(str.substr(1)) + str.charAt(0);
+        }
+    }
+    const reversed = reverseString("Virat is a good player.");
+    document.getElementById("num").innerHTML =reversed ;   
+</script>
+</body>
+</html>

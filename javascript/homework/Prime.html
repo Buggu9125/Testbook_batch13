@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+</head>
+<body>
+    <h1 id="number"></h1>
+    <p id="result"></p>
+    <script>
+         var no=0;
+         no=prompt('enter the number');
+         document.getElementById('number').innerHTML=no;
+        function p() {
+         let  i, flag = true;
+        for (i = 2; i <= no - 1; i++)
+          if (no % i == 0) {
+             flag = false;
+            break;
+            }
+
+        if (flag == true)
+        document.getElementById('result').innerHTML=(no + " is prime");
+        else
+        document.getElementById('result').innerHTML=(no + " is not prime");
+        }
+       p()
+
+    </script>
+</body>
+</html>

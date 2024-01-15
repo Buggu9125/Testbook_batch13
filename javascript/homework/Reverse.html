@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse the Number</title>
+</head>
+<body>
+    <h1>Reverseing the given number:-</h1>
+    <h4>Given Number is :-</h4>
+    <p id="givenno"></p>
+    <h4>The Reverse Number is :-</h4>
+    <p id="revno"></p>
+    <script>
+        var num = 12345678; 
+        document.getElementById('givenno').innerHTML=num;
+        function reverseFunction(num, reversed = 0) { 
+	if (num === 0) { 
+		return reversed; 
+	} 
+	return reverseFunction(Math.floor(num / 10), 
+		reversed * 10 + num % 10); 
+} 
+const result = reverseFunction(num); 
+document.getElementById('revno').innerHTML=result;
+  </script>
+</body>
+</html>

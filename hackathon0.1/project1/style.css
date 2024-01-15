@@ -1,0 +1,259 @@
+/*initial */
+@media screen and (max-width:600px) {
+  body{background-color: aliceblue;}
+}
+@media screen and (min-width:601px) and (max-width:900px){
+  body{background-color: white;}
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*end*/
+/*google start*/
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+/*google end*/
+/*header start*/
+/* Add a black background color to the top navigation */
+.topnav {
+background-color: rgb(51, 51,51);
+overflow: hidden;
+display: flex;
+gap:30px;
+position: fixed;
+width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /*header end*/
+  /*container 1 start*/
+  .main
+  {
+      width: 100%;
+      height: 500px;
+      background-image: url(image.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      text-align: center;
+       align-items: center;
+       justify-content: center;
+       padding-top: 200px;
+      color: white;
+  }
+  .main >h1
+  {
+     font-size: 80px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding-bottom: 50px;
+  }
+  .main >h4{
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-bottom: 40px;
+  }
+  .main >p{
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-bottom: 10px;
+  }
+  .main >p2
+  {
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-bottom: 10px;
+  }
+  /*container 1 end*/
+  /*contaier2 start */
+  .music
+  {
+      background-color: rgb(37, 37, 41);
+      text-align: center;
+      align-items: center;
+      color: rgb(202, 197, 197);
+  }
+  .music >h1{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 80;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .music >h2{
+    padding: 20px;
+    font-size: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .music >h4{
+    padding: 20px;
+    font-size: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .music >p{
+    padding: 20px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .music >img
+  {
+    margin: 10px;
+    width: 700px;
+    height: 500px;
+  }
+  .music >a
+  {
+    background-color: red;
+    margin: 20px;
+    padding:15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  /*container 2 end*/
+  /* container3 start*/
+  .cont
+  {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  .cont > h1 
+  {
+    font-size: 35px;
+    color: black;
+    padding-bottom: 30px;
+  }
+  .cont >p
+  {
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  .cont >a
+  {
+    text-decoration: none;
+    background-color: rgb(16, 48, 99);
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+  }
+  /*container 3 end */
+  /*container 4 start*/
+  .main2
+  {
+    background-image:url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+  .main2 >h1
+  {
+  padding-top: 200px;
+    font-size: 30px;
+    align-items: center;
+  }
+  .main2 >p
+  {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    align-items: center;
+  }
+  /*container 4 end*/
+  /*conatainer 5 start*/
+  .card
+  {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(66, 66, 66);
+  }
+  .inner
+  {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+  }
+  .inner >h1
+  {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  .inner >p{
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .inner >a{
+    align-items: left;
+    padding-right: 650px;
+    text-decoration: none;
+  }
+  /*container 5 end*/
+  /*conatainer 6 start*/
+  .con{
+    display: flex;
+    gap: 50px;
+    background-color: rgb(37, 37, 41);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+  }
+  .block
+  {
+    color: rgb(218, 216, 216);
+    text-decoration: none;
+  }
+  .block >h2{
+    text-align: center;
+    border-bottom: 1px solid grey;
+  }
+  .block >ul
+  {
+    padding-top: 10px;
+    list-style-type: none; 
+  }
+  /*conatiner 6 end*/
+  /* footer start*/
+  footer
+  {
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+  /*footer end*/

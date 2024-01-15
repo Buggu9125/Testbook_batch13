@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>students Marks</title>
+</head>
+<body>
+    <h1>student  marks :-</h1>
+    <p>Hindi Marks</p>
+    <h4 id="marks"></h4>
+    <p>Maths Marks</p>
+    <h4 id="mark"></h4>
+    <script>
+     var hindi=12;
+     var maths=70;
+     if(hindi>0 && hindi<100)
+     {
+     if(hindi>=90 )
+     {
+        document.getElementById('marks').innerHTML='Grade A';
+     }
+     else if(hindi >=80 && hindi < 89)
+     {
+        document.getElementById('marks').innerHTML='Grade B';
+     }
+     else if(hindi >= 70 && hindi < 79)
+     {
+        document.getElementById('marks').innerHTML='Grade C';
+     }
+     else if(hindi >=60 && hindi < 69)
+     {
+        document.getElementById('marks').innerHTML='Grade D';
+     }
+     else if(hindi <60)
+     {
+        document.getElementById('marks').innerHTML='Grade F';
+     }
+    }
+    else
+    {
+        document.getElementById('marks').innerHTML='Error';
+    }
+    if(maths>0   && maths<100){
+        if(maths>=90)
+        {
+            document.getElementById('mark').innerHTML='Grade A';
+            
+        }
+        else if(maths>= 80 && maths < 89)
+     {
+        document.getElementById('mark').innerHTML='Grade B';
+     }
+     else if(maths >=70 && maths<79)
+     {
+        document.getElementById('mark').innerHTML='Grade C';
+     }
+     else if(maths >=60 && maths<69)
+     {
+        document.getElementById('mark').innerHTML='Grade D';
+     }
+     else if(maths <60)
+     {
+        document.getElementById('mark').innerHTML='Grade F';
+     }
+    }
+    else
+    {
+        document.getElementById('mark').innerHTML='Error';
+
+    }
+    </script>
+
+</body>
+</html>

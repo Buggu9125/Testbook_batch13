@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1 id="words"></h1>
+    <script>
+    function getVowels(string) {
+        let Vowels = 'aAeEiIoOuU';
+        let vowelsCount = 0;
+        for (let i = 0; i < string.length; i++) {
+            if (Vowels.indexOf(string[i]) !== -1) {
+                vowelsCount += 1;
+            }
+        }
+        return vowelsCount;
+    }
+    document.getElementById('words').innerHTML=("The Number of vowels in -" +
+        "JavaScript program:- "
+        + getVowels("JavaScript program"));
+    </script>
+</body>
+</html>

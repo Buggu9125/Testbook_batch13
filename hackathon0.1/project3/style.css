@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/*container start*/
+.container {
+   color: #fff;
+    width: 100%;
+    padding: 5rem 0;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.QXIkGwKRF5XjdiGg0BT3-QHaEK&pid=Api&P=0&h=180);
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+/*container end*/
+
+/*form start*/
+.data
+{
+    margin:0 25rem;
+    padding: 2rem 0;
+    background-color:rgb(41, 41, 71);
+    width: 700px;
+    height: 100%;
+    border: 1px solid rgb(41, 41, 71);
+}
+.data>label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:10px;
+}
+.data>input{
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 839px) {
+    .container {
+        padding: 1rem;
+    }
+
+}
+/*form end*/ 

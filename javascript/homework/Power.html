@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power of Number</title>
+</head>
+<body>
+    <h1>The Given Number:-</h1>
+    <h1 id="given"></h1>
+    <h1>The Power of a Number:-</h1>
+    <h1 id="num"></h1>
+    <script>
+        var base,exponent;
+        base=prompt("enter the number");
+        document.getElementById("given").innerHTML =base; 
+        exponent=prompt("enter the exponent");
+        function power() {
+	var result = 1;
+	if(exponent == undefined)
+		exponent = 2;
+	for(var i=1; i<=exponent; i++) {
+		result = result * base;
+	}
+	return result;
+}
+document.getElementById("num").innerHTML =power(); 
+    </script>
+</body>
+</html>
